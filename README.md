@@ -46,14 +46,15 @@ The dataset contains loan application records with the following features:
 ## 📁 Project Structure
 
 loan-approval-prediction/
-│
-├── eda.ipynb                  # Exploratory Data Analysis
-├── feature_engineering.ipynb  # Outlier treatment, encoding, scaling
-├── model_training.ipynb       # Model training and evaluation
-│
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Files excluded from version control
-└── README.md                  # Project documentation
+
+├── data_cleaning.ipynb        # remove missing values \n
+├── eda.ipynb                  # Exploratory Data Analysis\n
+├── feature_engineering.ipynb  # Outlier treatment, encoding, scaling\n
+├── model_training.ipynb       # Model training and evaluation\n
+│\n
+├── requirements.txt           # Python dependencies\n
+├── .gitignore                 # Files excluded from version control\n
+└── README.md                  # Project documentation\n
 
 
 ---
@@ -62,7 +63,7 @@ loan-approval-prediction/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/loan-approval-prediction.git
+git clone https://github.com/Shaila-Yasin/loan-approval-prediction.git
 cd loan-approval-prediction
 ```
 
@@ -72,7 +73,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download the dataset
-Download from the Kaggle link above, place it in the root folder and rename it to `cleaned_loan_data.csv`
+Download from the Kaggle link above, place it in the root folder and after data_cleaning step rename it to `cleaned_loan_data.csv`
 
 ### 4. Run notebooks in this order
 1. data_cleaning.ipynb
