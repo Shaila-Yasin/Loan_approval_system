@@ -24,7 +24,7 @@ The **Random Forest** model was selected as the final model due to its highest a
 ## 📂 Dataset
 
 The dataset used in this project is publicly available on Kaggle.  
-👉 [Download Dataset](<paste your kaggle link here>)
+👉 [Download Dataset](https://www.kaggle.com/datasets/sohailkhan05/loan-risk-prediction)
 
 
 The dataset contains loan application records with the following features:
@@ -133,4 +133,4 @@ Download from the Kaggle link above, place it in the root folder and rename it t
 ## 👤 Author
 
 **<Shaila_Yasin>**  
-[GitHub]() 
+[GitHub](https://github.com/Shaila-Yasin) 
